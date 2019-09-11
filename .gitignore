@@ -1,5 +1,3 @@
-# Created by https://www.gitignore.io/api/java,windows,eclipse
-# Edit at https://www.gitignore.io/?templates=java,windows,eclipse
 
 ### Eclipse ###
 .metadata
@@ -71,6 +69,10 @@ local.properties
 
 .sts4-cache/
 
+### Java-Web ###
+## ignoring target file
+target/
+
 ### Java ###
 # Compiled class file
 *.class
@@ -123,8 +125,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# End of https://www.gitignore.io/api/java,windows,eclipse
 
 #Excute
 *.com
