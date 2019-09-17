@@ -10,7 +10,7 @@
 	<context:property-placeholder location="classpath:env.properties,
 		classpath:external.properties"/>
 
-	<bean id="external" class="com.test.ex5_externalfile.ExternalFileEx">
+	<bean id="external" class="com.test.ex5_externalfile_xml.ExternalFileEx">
 
 		<property name="id" value="${env.id}"/>
 
