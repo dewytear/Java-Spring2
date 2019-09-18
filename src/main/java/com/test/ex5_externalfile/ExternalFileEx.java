@@ -1,4 +1,4 @@
-package com.test.ex5_externalfile_xml;
+package com.test.ex5_externalfile;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

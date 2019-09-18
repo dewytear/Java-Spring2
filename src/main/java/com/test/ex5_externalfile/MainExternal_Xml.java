@@ -1,9 +1,9 @@
-package com.test.ex5_externalfile_xml;
+package com.test.ex5_externalfile;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class MainExternal {
+public class MainExternal_Xml {
 
 	public static void main(String[] args) {
 
