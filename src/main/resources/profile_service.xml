@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd"
+	profile="service">
+	<!-- 실제 서비스 환경 설정 -->
+	<bean id="profileEx" class="com.test.ex6_profile.ProfileEx">
+		<property name="ip" value="192.168.0.1"/>
+		<property name="port" value="80"/>
+	</bean>
+
+</beans>
