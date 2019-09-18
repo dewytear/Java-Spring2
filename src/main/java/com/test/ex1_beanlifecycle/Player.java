@@ -1,4 +1,4 @@
-package com.test.ex_beanlifecycle;
+package com.test.ex1_beanlifecycle;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

@@ -1,4 +1,4 @@
-package com.test.ex_beanlifecycle;
+package com.test.ex1_beanlifecycle;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
