@@ -11,8 +11,10 @@ public class ConfigService {
 	@Bean
 	public ProfileEx profileEx() {
 		ProfileEx prof = new ProfileEx();
+
+		//[region] TEST
 		prof.setIp("192.168.0.2");
-		prof.setPort("88");
+		prof.setPort("88");//[end]
 		return prof;
 	}
 
